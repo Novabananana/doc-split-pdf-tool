@@ -54,3 +54,140 @@ pip install -r requirements.txt
 
 # Run the application
 python docu_split.py
+📖 Usage Guide
+Basic Workflow
+Tab 1 (Documents with IDs):
+
+Select your PDF file
+
+Choose output folder
+
+Add extraction criteria (e.g., "Student Number:", "Student Name:")
+
+Select which fields to include in filenames
+
+Click "SPLIT BY ID"
+
+Tab 2 (Documents without IDs):
+
+Process Tab 1 first to create CSV mapping
+
+Load CSV (auto-detected from Tab 1)
+
+Configure Tab 2 extraction criteria
+
+Click "SPLIT BY NAME"
+
+Tab 3 (Page Ranges):
+
+Select PDF file
+
+Enter page ranges (e.g., "1-5, 10-15, 20")
+
+Choose output folder
+
+Click "EXTRACT PAGES"
+
+Advanced Features
+Stop Text - Stop reading at a specific phrase for multi-line values:
+
+Prefix: "Degree of"
+
+Stop Text: "on the day of"
+
+Result: Captures only the degree name without the date
+
+Custom Filename - Combine up to 4 criteria with custom separator:
+
+Example: Document ID_Name_Description.pdf
+
+Separator options: _ -  . __
+
+Optional suffix: _final → Document ID_Name_final.pdf
+
+🛠️ Building from Source
+bash
+# Install PyInstaller
+pip install pyinstaller
+
+# Build executable
+pyinstaller --onefile --name "DocSplit" --windowed --hidden-import PyPDF2 --hidden-import fitz docu_split.py
+📋 Requirements
+Windows 10/11 (Linux/Mac supported from source)
+
+Python 3.7+ (for source installation)
+
+4GB RAM recommended
+
+100MB disk space
+
+🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📝 Changelog
+v1.0.0 (2026-05-08)
+Initial release
+
+Split by ID, Name, and page ranges
+
+Custom extraction criteria
+
+CSV output support
+
+Dark/Light mode
+
+Dismissible tips
+
+⚠️ Known Issues
+None currently
+
+🙏 Acknowledgments
+PyPDF2 - PDF manipulation
+
+PyMuPDF - PDF text extraction
+
+Pillow - Image handling
+
+📧 Contact
+Author: Novabananana
+
+GitHub: @Novabananana
+
+Issues: Report a bug
+
+📜 License
+Distributed under the GNU General Public License v3.0. See LICENSE for more information.
+
+⭐ Star this repo if you find it useful!
+
+Made with ❤️ for the PDF splitting community
+
+text
+
+### Step 4: Paste into nano
+
+- Right-click in the terminal (or press `Ctrl + Shift + V`) to paste
+- Or use `Shift + Insert` to paste
+
+### Step 5: Save and exit
+
+- Press `Ctrl + O` (save)
+- Press `Enter` (confirm filename)
+- Press `Ctrl + X` (exit)
+
+### Step 6: Commit and push the changes
+
+```bash
+git add README.md
+git commit -m "Improve README with detailed documentation"
+git push
