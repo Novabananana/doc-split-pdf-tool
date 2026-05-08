@@ -2,7 +2,7 @@
 
 If Doc Split saves you time and makes your work easier, consider supporting its development!
 
-[![Support via Ko-fi](https://img.shields.io/badge/Support%20Me-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/yourusername)
+[![Support via Ko-fi](https://img.shields.io/badge/Support%20Me-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/novabananana)
 
 Your support helps me add new features, fix bugs, and keep the project alive! 🙏
 
