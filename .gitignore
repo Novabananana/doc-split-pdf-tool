@@ -1,0 +1,43 @@
+# Sensitive data - NEVER commit these
+*.pdf
+*.csv
+testamur/
+Output/
+Transcript_Output/
+Testamur_Output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+DocSplit/
+DocSplit.exe
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App settings
+.doc_split_settings.json
+
+# Logs
+*.log
