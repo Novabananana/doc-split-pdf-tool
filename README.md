@@ -242,9 +242,4 @@ Uses PyMuPDF (fitz) for text extraction
 
 UI designed with Python's tkinter
 
-<div align="center">
-Made with ❤️ for efficient PDF document processing
-
-Report Bug · Request Feature
-
 </div> ```
