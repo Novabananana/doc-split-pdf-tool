@@ -38,13 +38,8 @@ A powerful desktop application for splitting PDF documents and extracting data w
 
 ### 🎨 Interface
 - Clean Windows 10 flat design
-- Dark/Light mode toggle
 - Dismissible tips for new users
-- Real-time filename preview
 
-## 📸 Screenshot
-
-![Doc Split Screenshot](screenshot.png)
 
 ## 🚀 Quick Start
 
